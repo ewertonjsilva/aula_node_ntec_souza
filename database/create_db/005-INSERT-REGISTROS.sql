@@ -4,12 +4,12 @@
 
 -- USUARIOS
 -- usu_tipo: 0 - ADM, 1 - Restaurante, 2 - Cliente
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Thomas Francisco Corte Real', 'thomasfranciscocortereal@kaynak.com.br', '123456', 0, true);
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Mateus Vitor Lima', 'mateusvitorlima@abcturismo.com.br', '123456', 1, true);
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Rosângela Marina Nicole Aragão', 'rosangela_marina_aragao@vivo.com.br', '123456',  1, true);
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Severino Márcio João Ribeiro', 'severino-ribeiro95@advocaciand.adv.br', '123456', 2, true);
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Mariah Sebastiana Assunção', 'mariah_assuncao@queirozgalvao.com', '123456', 2, true);
-INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo) VALUES ('Rosângela Marina Nicole Aragão', 'rosangela_marina_aragao@vivo.com.br', '123456', 2, true);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Thomas Francisco Corte Real', 'thomasfranciscocortereal@kaynak.com.br', '123456', 0);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Mateus Vitor Lima', 'mateusvitorlima@abcturismo.com.br', '123456', 1);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Rosângela Marina Nicole Aragão', 'rosangela_marina_aragao@vivo.com.br', '123456',  1);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Severino Márcio João Ribeiro', 'severino-ribeiro95@advocaciand.adv.br', '123456', 2);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Mariah Sebastiana Assunção', 'mariah_assuncao@queirozgalvao.com', '123456', 2);
+INSERT INTO usuarios (usu_nome, usu_email, usu_senha, usu_tipo) VALUES ('Rosângela Marina Nicole Aragão', 'rosangela_marina_aragao@vivo.com.br', '123456', 2);
 
 -- TIPOS DE PRODUTO
 INSERT INTO produto_tipos (ptp_nome, ptp_icone) VALUES ('Lanche', 'lanche.svg'); 

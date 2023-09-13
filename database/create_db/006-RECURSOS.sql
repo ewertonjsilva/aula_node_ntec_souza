@@ -7,7 +7,7 @@ SELECT ped_id, ped_data, usu_id, cli_id, ped_tipo, ped_status, ped_desconto, ped
 SELECT cli_id, end_logradouro, end_num, end_bairro, end_complemento, cid_id FROM endereco_clientes; 
 SELECT cid_id, cid_nome, cid_uf FROM cidades;
 SELECT usu_id, cli_cel, cli_pts FROM clientes; 
-SELECT usu_id, usu_nome, usu_email, usu_senha, usu_tipo, usu_ativo FROM usuarios;
+SELECT usu_id, usu_nome, usu_email, usu_senha, usu_tipo FROM usuarios;
 
 -- DROP DE TODAS AS TABELAS NA ORDEM DE EXCLUSÃO
 DROP TABLE pedido_produtos;
